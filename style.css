@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: #333;
+    }
+    header {
+    background-color: #f8f8f8;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555;
+    }
+    .hero {
+    background: url('https://images.unsplash.com/photo-1576402187873-bf86b3394d0c') no-repeat center center/cover;
+    height: 400px;
+    }
+    footer {
+    background-color: #eee;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    }
+    footer div {
+    width: 45%;
+    }
+    button {
+    padding: 10px 20px;
+    background-color: #68c36e;
+    border: none;
+    color: white;
+    cursor: pointer;
+    }
